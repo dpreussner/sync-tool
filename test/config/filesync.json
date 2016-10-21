@@ -1,0 +1,33 @@
+{
+    "mappings": [
+        {
+            "srcRoot": "src/main/resources",
+            "dstRoot": "G:/domains/test-app/apps/staging/frontendapp/frontendapp/etv-webapp/test-app/WEB-INF/classes",
+            "files": "**/*.xml",
+            "ignored": "",
+            "cleanupPatterns": ["**/test"]
+
+        },
+        {
+            "srcRoot": "target/classes",
+            "dstRoot": "G:/domains/test-app/apps/staging/frontendapp/frontendapp/etv-webapp/test-app/WEB-INF/classes",
+            "files": "**/*.*",
+            "ignored": "",
+            "cleanupPatterns": ["**/test"]
+
+        },
+        {
+            "srcRoot": "src/main/static",
+            "dstRoot": "G:/domains/test-app/web",
+            "files": "**/*.*",
+            "ignored": "*.css",
+            "cleanupPatterns": ["**/test"]
+        },
+        {
+            "srcRoot": "src/main/static/modules/test/css",
+            "dstRoot": "G:/domains/test-app/web/skins/nextgen/modules/test/css",
+            "files": "**/*.*",
+            "ignored": ""
+        }
+    ]
+}
